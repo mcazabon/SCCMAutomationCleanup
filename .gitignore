@@ -1,0 +1,5 @@
+logs/
+reports/
+*.log
+*.bak
+Library/Resources.xml

@@ -1,0 +1,21 @@
+<!--
+  Copy this file to Resources.xml (which is git-ignored) and fill in your own values.
+  The environment is chosen by the attribute on each site node (uat="", prod="", prod2="").
+-->
+<sites>
+  <site1
+    uat=""
+    adaptivasqldbname="NA"
+    sccmsqldbname="SCCM_DB_NAME"
+    sqlserver="SITESQL\INSTANCE"
+    site="XXX"
+    sccmserver="sccm-server.example.com"></site1>
+  <spdwsql
+    spdwsql=""
+    sqlserver="SPDWSQL\INSTANCE"
+    sqldbname="SPDW_STAGING_DB"></spdwsql>
+  <monitoringsql
+    monsql=""
+    sqlserver="MONSQL\INSTANCE"
+    sqldbname="MONITORING_DB"></monitoringsql>
+</sites>
